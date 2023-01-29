@@ -18,7 +18,7 @@ const Navbar = () => {
       {['home', 'about', 'work', 'skills', 'contact', 'resume'].map((item) => (
           <li key={`link-${item}`} className="app__flex p-text">
             <div />
-            <a href={item != 'resume' ? `#${item}` : `https://drive.google.com/file/d/1cPmD0gVHfUGo8l3rf04XqjKVulMeroOe/view?usp=share_link`}>{item}</a>
+            <a target="_blank" href={item != 'resume' ? `#${item}` : `https://drive.google.com/file/d/1cPmD0gVHfUGo8l3rf04XqjKVulMeroOe/view?usp=share_link`}>{item}</a>
           </li>
         ))}
       </ul>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <ul>
               {['home', 'about', 'work', 'skills', 'contact', 'resume'].map((item) => (
                 <li key={item}>
-                  <a href={item != 'resume' ? `#${item}` : `https://drive.google.com/file/d/1cPmD0gVHfUGo8l3rf04XqjKVulMeroOe/view?usp=share_link`} onClick={() => setToggle(false)}>
+                  <a target="_blank" href={item != 'resume' ? `#${item}` : `https://drive.google.com/file/d/1cPmD0gVHfUGo8l3rf04XqjKVulMeroOe/view?usp=share_link`} onClick={() => setToggle(false)}>
                     {item}
                   </a>
                 </li>
