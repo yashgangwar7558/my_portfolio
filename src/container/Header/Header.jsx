@@ -38,7 +38,7 @@ const Header = () => {
             <p className="p-text">Web Developer</p>
             <p className="p-text">Open Source</p>
             <p className="p-text">Devops</p>
-            <p className="p-text">Cloud Native Enthusiast</p>
+            <p className="p-text">Cloud</p>
           </div>
         </div>
       </motion.div>
