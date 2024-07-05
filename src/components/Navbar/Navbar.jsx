@@ -18,7 +18,7 @@ const Navbar = () => {
       {['home', 'about', 'work', 'skills', 'contact', 'resume', 'blogs'].map((item) => (
           <li key={`link-${item}`} className="app__flex p-text">
             <div />
-            <a href={item == 'resume' || item == 'blogs' ? (item == 'resume' ? `https://drive.google.com/file/d/1loqHFz1-GDjub6rs8kyTH7LCQKTX1kwa/view`) : (`#${item}`)}>{item}</a>
+            <a href={item == 'resume' || item == 'blogs' ? (item == 'resume' ? `https://drive.google.com/drive/u/1/folders/1pPAfuRo7ZQJZgB90uwCMvmhJ2h6361u3`) : (`#${item}`)}>{item}</a>
           </li>
         ))}
       </ul>
